@@ -1,0 +1,33 @@
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-10rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+    /*makes sure to put the css way i.e on original position  */
+  }
+}
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-10rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+    /*makes sure to put the css way i.e on original position  */
+  }
+}
+@keyframes moveInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+    /*makes sure to put the css way i.e on original position  */
+  }
+}

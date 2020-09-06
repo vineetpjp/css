@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /* box-sizing: border-box; It does every thing inside it's boundary  */
+}
+
+html {
+  //This defines what 1rem is.
+  font-size: 62.5%;
+  /* this is 10px i.e 62.5% of 16px default size */
+  /* font-size: //10px; */
+}
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+}
